@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : hola.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	//Declaramos variables enteras
+	int numeroUno;
+	int numeroDos;
+	int resultado;
+	int resultadoScan;
+
+	//Mensaje en consola
+	printf("Ingrese el primer numero");
+	fflush(stdin);
+
+	//Entrada de dato
+	//%d (int) , %f (float), %c (char)
+	//El primer parametro se llama "mascara", en el segundo parametro determinamos en que variable queremos que se guarde
+	//El "&" nos sirve para autorizar a la funcion scanf guardar el valor que ingresemos en la variable determinada
+	//resultadoScan nos sirve para verificar si fue exitosa o no la toma de datos, va a ser 1 o 0
+	resultadoScan = scanf("%d", &numeroUno);
+
+
+}
