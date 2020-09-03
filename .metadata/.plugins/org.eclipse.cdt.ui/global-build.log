@@ -1,2 +1,172 @@
+22:32:29 **** Incremental Build of configuration Debug for project Clase_03c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03c.o" "..\\src\\Clase_03c.c" 
+gcc -o Clase_03c.exe "src\\Clase_03c.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
 Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+22:46:44 **** Rebuild of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+gcc -o Clase_03prueba.exe "src\\Clase_03prueba.o" 
+Info: Nothing to build for Clase_03prueba
+22:47:48 **** Incremental Build of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+..\src\Clase_03prueba.c:14:1: warning: data definition has no type or storage class
+   14 | imprimit(char *mensaje);
+      | ^~~~~~~~
+..\src\Clase_03prueba.c:14:1: warning: type defaults to 'int' in declaration of 'imprimit' [-Wimplicit-int]
+..\src\Clase_03prueba.c: In function 'main':
+..\src\Clase_03prueba.c:19:2: warning: implicit declaration of function 'imprimir'; did you mean 'imprimit'? [-Wimplicit-function-declaration]
+   19 |  imprimir("Hola");
+      |  ^~~~~~~~
+      |  imprimit
+gcc -o Clase_03prueba.exe "src\\Clase_03prueba.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
 Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+22:48:07 **** Incremental Build of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+..\src\Clase_03prueba.c:14:1: warning: data definition has no type or storage class
+   14 | imprimir(char *mensaje);
+      | ^~~~~~~~
+..\src\Clase_03prueba.c:14:1: warning: type defaults to 'int' in declaration of 'imprimir' [-Wimplicit-int]
+gcc -o Clase_03prueba.exe "src\\Clase_03prueba.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+22:48:33 **** Incremental Build of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+gcc -o Clase_03prueba.exe "src\\Clase_03prueba.o" 
+Info: Nothing to build for Clase_03prueba
+22:49:52 **** Incremental Build of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+..\src\Clase_03prueba.c:22:28: error: expected declaration specifiers or '...' before ')' token
+   22 | int imprimir(char *mensaje,)
+      |                            ^
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+22:50:23 **** Incremental Build of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+gcc -o Clase_03prueba.exe "src\\Clase_03prueba.o" 
+Info: Nothing to build for Clase_03prueba
+22:50:36 **** Incremental Build of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+gcc -o Clase_03prueba.exe "src\\Clase_03prueba.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+22:55:08 **** Incremental Build of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+..\src\Clase_03prueba.c: In function 'main':
+..\src\Clase_03prueba.c:21:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'if'
+   21 |  if(getFloat("Ingrese un numero", "\nPor favor, ingrese un numero valido", &primerNumero) == 0)
+      |  ^~
+..\src\Clase_03prueba.c:21:77: error: 'primerNumero' undeclared (first use in this function)
+   21 |  if(getFloat("Ingrese un numero", "\nPor favor, ingrese un numero valido", &primerNumero) == 0)
+      |                                                                             ^~~~~~~~~~~~
+..\src\Clase_03prueba.c:21:77: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+22:55:25 **** Incremental Build of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+gcc -o Clase_03prueba.exe "src\\Clase_03prueba.o" 
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+22:58:31 **** Incremental Build of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+..\src\Clase_03prueba.c: In function 'main':
+..\src\Clase_03prueba.c:27:7: warning: implicit declaration of function 'sumarNumeros' [-Wimplicit-function-declaration]
+   27 |    if(sumarNumeros(primerNumero, segundoNumero, &resultado) == 0)
+      |       ^~~~~~~~~~~~
+..\src\Clase_03prueba.c:29:12: warning: too many arguments for format [-Wformat-extra-args]
+   29 |     printf("El resultado de la suma e: ", resultado);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Clase_03prueba.exe "src\\Clase_03prueba.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+22:59:13 **** Incremental Build of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+..\src\Clase_03prueba.c: In function 'main':
+..\src\Clase_03prueba.c:30:12: warning: too many arguments for format [-Wformat-extra-args]
+   30 |     printf("El resultado de la suma e: ", resultado);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Clase_03prueba.exe "src\\Clase_03prueba.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+22:59:26 **** Incremental Build of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+gcc -o Clase_03prueba.exe "src\\Clase_03prueba.o" 
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+23:06:09 **** Incremental Build of configuration Debug for project Clase_03prueba ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
+gcc -o Clase_03prueba.exe "src\\Clase_03prueba.o" 
