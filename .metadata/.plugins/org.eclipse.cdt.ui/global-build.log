@@ -170,3 +170,1070 @@ Info: Nothing to build for Clase_03c
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_03prueba.o" "..\\src\\Clase_03prueba.c" 
 gcc -o Clase_03prueba.exe "src\\Clase_03prueba.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+19:39:17 **** Rebuild of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+gcc -o Clase_04.exe "src\\Clase_04.o" 
+Info: Nothing to build for Clase_04
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+19:49:45 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+..\src\Clase_04.c: In function 'otraFuncion':
+..\src\Clase_04.c:44:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   44 |  printf("Recibi la direccion %d", direccion);
+      |                              ~^   ~~~~~~~~~
+      |                               |   |
+      |                               int int *
+      |                              %n
+gcc -o Clase_04.exe "src\\Clase_04.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+19:49:56 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+..\src\Clase_04.c: In function 'otraFuncion':
+..\src\Clase_04.c:44:31: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+   44 |  printf("Recibi la direccion %u", direccion);
+      |                              ~^   ~~~~~~~~~
+      |                               |   |
+      |                               |   int *
+      |                               unsigned int
+      |                              %n
+gcc -o Clase_04.exe "src\\Clase_04.o" 
+19:50:26 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+gcc -o Clase_04.exe "src\\Clase_04.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+19:51:07 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+gcc -o Clase_04.exe "src\\Clase_04.o" 
+Info: Nothing to build for Clase_04
+Info: Nothing to build for Clase_04
+19:57:27 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+..\src\Clase_04.c: In function 'main':
+..\src\Clase_04.c:25:4: warning: assignment to 'int *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]
+   25 |  p = &b;
+      |    ^
+..\src\Clase_04.c:33:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   33 |  printf("\nEl valor de b es: %d",b);
+      |                              ~^  ~
+      |                               |  |
+      |                               |  double
+      |                               int
+      |                              %f
+..\src\Clase_04.c:37:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   37 |  printf("\nEl nuevo valor de b es: %d", b);
+      |                                    ~^   ~
+      |                                     |   |
+      |                                     int double
+      |                                    %f
+..\src\Clase_04.c: At top level:
+..\src\Clase_04.c:41:6: error: conflicting types for 'otraFuncion'
+   41 | void otraFuncion(float *direccion)
+      |      ^~~~~~~~~~~
+..\src\Clase_04.c:14:6: note: previous declaration of 'otraFuncion' was here
+   14 | void otraFuncion(int *direccion);
+      |      ^~~~~~~~~~~
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+19:57:42 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+..\src\Clase_04.c: In function 'main':
+..\src\Clase_04.c:25:4: warning: assignment to 'int *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]
+   25 |  p = &b;
+      |    ^
+..\src\Clase_04.c: At top level:
+..\src\Clase_04.c:41:6: error: conflicting types for 'otraFuncion'
+   41 | void otraFuncion(float *direccion)
+      |      ^~~~~~~~~~~
+..\src\Clase_04.c:14:6: note: previous declaration of 'otraFuncion' was here
+   14 | void otraFuncion(int *direccion);
+      |      ^~~~~~~~~~~
+19:57:44 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+..\src\Clase_04.c: In function 'main':
+..\src\Clase_04.c:25:4: warning: assignment to 'int *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]
+   25 |  p = &b;
+      |    ^
+..\src\Clase_04.c: At top level:
+..\src\Clase_04.c:41:6: error: conflicting types for 'otraFuncion'
+   41 | void otraFuncion(float *direccion)
+      |      ^~~~~~~~~~~
+..\src\Clase_04.c:14:6: note: previous declaration of 'otraFuncion' was here
+   14 | void otraFuncion(int *direccion);
+      |      ^~~~~~~~~~~
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+19:57:56 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+gcc -o Clase_04.exe "src\\Clase_04.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+20:01:27 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+..\src\Clase_04.c: In function 'main':
+..\src\Clase_04.c:26:4: warning: assignment to 'int *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]
+   26 |  p = &b;
+      |    ^
+..\src\Clase_04.c: In function 'otraFuncion':
+..\src\Clase_04.c:47:2: error: pointer value used where a floating point value was expected
+   47 |  *(float)direccion = 8.5;
+      |  ^
+..\src\Clase_04.c:47:2: error: invalid type argument of unary '*' (have 'float')
+   47 |  *(float)direccion = 8.5;
+      |  ^~~~~~~~~~~~~~~~~
+20:01:29 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+..\src\Clase_04.c: In function 'main':
+..\src\Clase_04.c:26:4: warning: assignment to 'int *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]
+   26 |  p = &b;
+      |    ^
+..\src\Clase_04.c: In function 'otraFuncion':
+..\src\Clase_04.c:47:2: error: pointer value used where a floating point value was expected
+   47 |  *(float)direccion = 8.5;
+      |  ^
+..\src\Clase_04.c:47:2: error: invalid type argument of unary '*' (have 'float')
+   47 |  *(float)direccion = 8.5;
+      |  ^~~~~~~~~~~~~~~~~
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+20:01:51 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+..\src\Clase_04.c: In function 'main':
+..\src\Clase_04.c:26:4: warning: assignment to 'int *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]
+   26 |  p = &b;
+      |    ^
+..\src\Clase_04.c: At top level:
+..\src\Clase_04.c:42:6: error: conflicting types for 'otraFuncion'
+   42 | void otraFuncion(float *direccion)
+      |      ^~~~~~~~~~~
+..\src\Clase_04.c:14:6: note: previous declaration of 'otraFuncion' was here
+   14 | void otraFuncion(int *direccion);
+      |      ^~~~~~~~~~~
+20:01:54 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+..\src\Clase_04.c: In function 'main':
+..\src\Clase_04.c:26:4: warning: assignment to 'int *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]
+   26 |  p = &b;
+      |    ^
+..\src\Clase_04.c: At top level:
+..\src\Clase_04.c:42:6: error: conflicting types for 'otraFuncion'
+   42 | void otraFuncion(float *direccion)
+      |      ^~~~~~~~~~~
+..\src\Clase_04.c:14:6: note: previous declaration of 'otraFuncion' was here
+   14 | void otraFuncion(int *direccion);
+      |      ^~~~~~~~~~~
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+20:02:41 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+..\src\Clase_04.c: In function 'main':
+..\src\Clase_04.c:26:4: warning: assignment to 'int *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]
+   26 |  p = &b;
+      |    ^
+..\src\Clase_04.c: At top level:
+..\src\Clase_04.c:42:7: error: conflicting types for 'otraFuncion'
+   42 | float otraFuncion(float *direccion)
+      |       ^~~~~~~~~~~
+..\src\Clase_04.c:14:6: note: previous declaration of 'otraFuncion' was here
+   14 | void otraFuncion(int *direccion);
+      |      ^~~~~~~~~~~
+..\src\Clase_04.c: In function 'otraFuncion':
+..\src\Clase_04.c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+   48 | }
+      | ^
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+20:02:48 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+..\src\Clase_04.c: In function 'main':
+..\src\Clase_04.c:26:4: warning: assignment to 'int *' from incompatible pointer type 'float *' [-Wincompatible-pointer-types]
+   26 |  p = &b;
+      |    ^
+..\src\Clase_04.c:37:14: warning: passing argument 1 of 'otraFuncion' from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |  otraFuncion(p);
+      |              ^
+      |              |
+      |              int *
+..\src\Clase_04.c:14:25: note: expected 'float *' but argument is of type 'int *'
+   14 | void otraFuncion(float *direccion);
+      |                  ~~~~~~~^~~~~~~~~
+gcc -o Clase_04.exe "src\\Clase_04.o" 
+Info: Nothing to build for Clase_04
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+20:03:36 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+gcc -o Clase_04.exe "src\\Clase_04.o" 
+Info: Nothing to build for Clase_04
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+20:04:25 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+..\src\Clase_04.c: In function 'otraFuncion':
+..\src\Clase_04.c:45:33: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+   45 |  printf("\nRecibi la direccion %f", direccion);
+      |                                ~^   ~~~~~~~~~
+      |                                 |   |
+      |                                 |   float *
+      |                                 double
+gcc -o Clase_04.exe "src\\Clase_04.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+20:04:30 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+gcc -o Clase_04.exe "src\\Clase_04.o" 
+Info: Nothing to build for Clase_04
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+20:06:35 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+gcc -o Clase_04.exe "src\\Clase_04.o" 
+Info: Nothing to build for Clase_04
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+21:38:46 **** Incremental Build of configuration Debug for project Clase_04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04.o" "..\\src\\Clase_04.c" 
+gcc -o Clase_04.exe "src\\Clase_04.o" 
+21:38:48 **** Rebuild of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+gcc -o Clase_04b.exe "src\\Clase_04b.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:38:57 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+..\src\Clase_04b.c:12:1: error: stray '\342' in program
+   12 | ​
+      | ^
+..\src\Clase_04b.c:12:2: error: stray '\200' in program
+   12 | ​
+      |  ^
+..\src\Clase_04b.c:12:3: error: stray '\213' in program
+   12 | ​
+      |   ^
+..\src\Clase_04b.c:14:1: error: stray '\342' in program
+   14 | ​
+      | ^
+..\src\Clase_04b.c:14:2: error: stray '\200' in program
+   14 | ​
+      |  ^
+..\src\Clase_04b.c:14:3: error: stray '\213' in program
+   14 | ​
+      |   ^
+..\src\Clase_04b.c: In function 'main':
+..\src\Clase_04b.c:21:1: error: stray '\342' in program
+   21 | ​
+      | ^
+..\src\Clase_04b.c:21:2: error: stray '\200' in program
+   21 | ​
+      |  ^
+..\src\Clase_04b.c:21:3: error: stray '\213' in program
+   21 | ​
+      |   ^
+..\src\Clase_04b.c:22:1: error: stray '\342' in program
+   22 | ​
+      | ^
+..\src\Clase_04b.c:22:2: error: stray '\200' in program
+   22 | ​
+      |  ^
+..\src\Clase_04b.c:22:3: error: stray '\213' in program
+   22 | ​
+      |   ^
+..\src\Clase_04b.c:24:1: error: stray '\342' in program
+   24 | ​
+      | ^
+..\src\Clase_04b.c:24:2: error: stray '\200' in program
+   24 | ​
+      |  ^
+..\src\Clase_04b.c:24:3: error: stray '\213' in program
+   24 | ​
+      |   ^
+..\src\Clase_04b.c:25:1: error: stray '\342' in program
+   25 | ​
+      | ^
+..\src\Clase_04b.c:25:2: error: stray '\200' in program
+   25 | ​
+      |  ^
+..\src\Clase_04b.c:25:3: error: stray '\213' in program
+   25 | ​
+      |   ^
+..\src\Clase_04b.c:30:1: error: stray '\342' in program
+   30 | ​
+      | ^
+..\src\Clase_04b.c:30:2: error: stray '\200' in program
+   30 | ​
+      |  ^
+..\src\Clase_04b.c:30:3: error: stray '\213' in program
+   30 | ​
+      |   ^
+..\src\Clase_04b.c:31:1: error: stray '\342' in program
+   31 | ​
+      | ^
+..\src\Clase_04b.c:31:2: error: stray '\200' in program
+   31 | ​
+      |  ^
+..\src\Clase_04b.c:31:3: error: stray '\213' in program
+   31 | ​
+      |   ^
+..\src\Clase_04b.c:32:1: error: stray '\342' in program
+   32 | ​
+      | ^
+..\src\Clase_04b.c:32:2: error: stray '\200' in program
+   32 | ​
+      |  ^
+..\src\Clase_04b.c:32:3: error: stray '\213' in program
+   32 | ​
+      |   ^
+..\src\Clase_04b.c: At top level:
+..\src\Clase_04b.c:35:1: error: stray '\342' in program
+   35 | ​
+      | ^
+..\src\Clase_04b.c:35:2: error: stray '\200' in program
+   35 | ​
+      |  ^
+..\src\Clase_04b.c:35:3: error: stray '\213' in program
+   35 | ​
+      |   ^
+..\src\Clase_04b.c:44:1: error: stray '\342' in program
+   44 | ​
+      | ^
+..\src\Clase_04b.c:44:2: error: stray '\200' in program
+   44 | ​
+      |  ^
+..\src\Clase_04b.c:44:3: error: stray '\213' in program
+   44 | ​
+      |   ^
+..\src\Clase_04b.c: In function 'utn_getNumero':
+..\src\Clase_04b.c:62:3: error: stray '\342' in program
+   62 |   ​
+      |   ^
+..\src\Clase_04b.c:62:4: error: stray '\200' in program
+   62 |   ​
+      |    ^
+..\src\Clase_04b.c:62:5: error: stray '\213' in program
+   62 |   ​
+      |     ^
+..\src\Clase_04b.c:71:27: error: stray '\342' in program
+   71 |     printf("%s",msgError);​
+      |                           ^
+..\src\Clase_04b.c:71:28: error: stray '\200' in program
+   71 |     printf("%s",msgError);​
+      |                            ^
+..\src\Clase_04b.c:71:29: error: stray '\213' in program
+   71 |     printf("%s",msgError);​
+      |                             ^
+..\src\Clase_04b.c: At top level:
+..\src\Clase_04b.c:76:1: error: stray '\342' in program
+   76 | ​
+      | ^
+..\src\Clase_04b.c:76:2: error: stray '\200' in program
+   76 | ​
+      |  ^
+..\src\Clase_04b.c:76:3: error: stray '\213' in program
+   76 | ​
+      |   ^
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:39:31 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+..\src\Clase_04b.c:12:1: error: stray '\342' in program
+   12 | ​
+      | ^
+..\src\Clase_04b.c:12:2: error: stray '\200' in program
+   12 | ​
+      |  ^
+..\src\Clase_04b.c:12:3: error: stray '\213' in program
+   12 | ​
+      |   ^
+..\src\Clase_04b.c:14:1: error: stray '\342' in program
+   14 | ​
+      | ^
+..\src\Clase_04b.c:14:2: error: stray '\200' in program
+   14 | ​
+      |  ^
+..\src\Clase_04b.c:14:3: error: stray '\213' in program
+   14 | ​
+      |   ^
+..\src\Clase_04b.c: In function 'main':
+..\src\Clase_04b.c:21:1: error: stray '\342' in program
+   21 | ​
+      | ^
+..\src\Clase_04b.c:21:2: error: stray '\200' in program
+   21 | ​
+      |  ^
+..\src\Clase_04b.c:21:3: error: stray '\213' in program
+   21 | ​
+      |   ^
+..\src\Clase_04b.c:22:1: error: stray '\342' in program
+   22 | ​
+      | ^
+..\src\Clase_04b.c:22:2: error: stray '\200' in program
+   22 | ​
+      |  ^
+..\src\Clase_04b.c:22:3: error: stray '\213' in program
+   22 | ​
+      |   ^
+..\src\Clase_04b.c:24:1: error: stray '\342' in program
+   24 | ​
+      | ^
+..\src\Clase_04b.c:24:2: error: stray '\200' in program
+   24 | ​
+      |  ^
+..\src\Clase_04b.c:24:3: error: stray '\213' in program
+   24 | ​
+      |   ^
+..\src\Clase_04b.c:25:1: error: stray '\342' in program
+   25 | ​
+      | ^
+..\src\Clase_04b.c:25:2: error: stray '\200' in program
+   25 | ​
+      |  ^
+..\src\Clase_04b.c:25:3: error: stray '\213' in program
+   25 | ​
+      |   ^
+..\src\Clase_04b.c:30:1: error: stray '\342' in program
+   30 | ​
+      | ^
+..\src\Clase_04b.c:30:2: error: stray '\200' in program
+   30 | ​
+      |  ^
+..\src\Clase_04b.c:30:3: error: stray '\213' in program
+   30 | ​
+      |   ^
+..\src\Clase_04b.c:31:1: error: stray '\342' in program
+   31 | ​
+      | ^
+..\src\Clase_04b.c:31:2: error: stray '\200' in program
+   31 | ​
+      |  ^
+..\src\Clase_04b.c:31:3: error: stray '\213' in program
+   31 | ​
+      |   ^
+..\src\Clase_04b.c:32:1: error: stray '\342' in program
+   32 | ​
+      | ^
+..\src\Clase_04b.c:32:2: error: stray '\200' in program
+   32 | ​
+      |  ^
+..\src\Clase_04b.c:32:3: error: stray '\213' in program
+   32 | ​
+      |   ^
+..\src\Clase_04b.c: At top level:
+..\src\Clase_04b.c:35:1: error: stray '\342' in program
+   35 | ​
+      | ^
+..\src\Clase_04b.c:35:2: error: stray '\200' in program
+   35 | ​
+      |  ^
+..\src\Clase_04b.c:35:3: error: stray '\213' in program
+   35 | ​
+      |   ^
+..\src\Clase_04b.c:44:1: error: stray '\342' in program
+   44 | ​
+      | ^
+..\src\Clase_04b.c:44:2: error: stray '\200' in program
+   44 | ​
+      |  ^
+..\src\Clase_04b.c:44:3: error: stray '\213' in program
+   44 | ​
+      |   ^
+..\src\Clase_04b.c: In function 'utn_getNumero':
+..\src\Clase_04b.c:62:3: error: stray '\342' in program
+   62 |   ​
+      |   ^
+..\src\Clase_04b.c:62:4: error: stray '\200' in program
+   62 |   ​
+      |    ^
+..\src\Clase_04b.c:62:5: error: stray '\213' in program
+   62 |   ​
+      |     ^
+..\src\Clase_04b.c:73:5: error: stray '\342' in program
+   73 |    }​
+      |     ^
+..\src\Clase_04b.c:73:6: error: stray '\200' in program
+   73 |    }​
+      |      ^
+..\src\Clase_04b.c:73:7: error: stray '\213' in program
+   73 |    }​
+      |       ^
+..\src\Clase_04b.c: At top level:
+..\src\Clase_04b.c:78:1: error: stray '\342' in program
+   78 | ​
+      | ^
+..\src\Clase_04b.c:78:2: error: stray '\200' in program
+   78 | ​
+      |  ^
+..\src\Clase_04b.c:78:3: error: stray '\213' in program
+   78 | ​
+      |   ^
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:39:55 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+..\src\Clase_04b.c:12:1: error: stray '\342' in program
+   12 | ​
+      | ^
+..\src\Clase_04b.c:12:2: error: stray '\200' in program
+   12 | ​
+      |  ^
+..\src\Clase_04b.c:12:3: error: stray '\213' in program
+   12 | ​
+      |   ^
+..\src\Clase_04b.c:14:1: error: stray '\342' in program
+   14 | ​
+      | ^
+..\src\Clase_04b.c:14:2: error: stray '\200' in program
+   14 | ​
+      |  ^
+..\src\Clase_04b.c:14:3: error: stray '\213' in program
+   14 | ​
+      |   ^
+..\src\Clase_04b.c: In function 'main':
+..\src\Clase_04b.c:21:1: error: stray '\342' in program
+   21 | ​
+      | ^
+..\src\Clase_04b.c:21:2: error: stray '\200' in program
+   21 | ​
+      |  ^
+..\src\Clase_04b.c:21:3: error: stray '\213' in program
+   21 | ​
+      |   ^
+..\src\Clase_04b.c:22:1: error: stray '\342' in program
+   22 | ​
+      | ^
+..\src\Clase_04b.c:22:2: error: stray '\200' in program
+   22 | ​
+      |  ^
+..\src\Clase_04b.c:22:3: error: stray '\213' in program
+   22 | ​
+      |   ^
+..\src\Clase_04b.c:24:1: error: stray '\342' in program
+   24 | ​
+      | ^
+..\src\Clase_04b.c:24:2: error: stray '\200' in program
+   24 | ​
+      |  ^
+..\src\Clase_04b.c:24:3: error: stray '\213' in program
+   24 | ​
+      |   ^
+..\src\Clase_04b.c:25:1: error: stray '\342' in program
+   25 | ​
+      | ^
+..\src\Clase_04b.c:25:2: error: stray '\200' in program
+   25 | ​
+      |  ^
+..\src\Clase_04b.c:25:3: error: stray '\213' in program
+   25 | ​
+      |   ^
+..\src\Clase_04b.c:30:1: error: stray '\342' in program
+   30 | ​
+      | ^
+..\src\Clase_04b.c:30:2: error: stray '\200' in program
+   30 | ​
+      |  ^
+..\src\Clase_04b.c:30:3: error: stray '\213' in program
+   30 | ​
+      |   ^
+..\src\Clase_04b.c:31:1: error: stray '\342' in program
+   31 | ​
+      | ^
+..\src\Clase_04b.c:31:2: error: stray '\200' in program
+   31 | ​
+      |  ^
+..\src\Clase_04b.c:31:3: error: stray '\213' in program
+   31 | ​
+      |   ^
+..\src\Clase_04b.c:32:1: error: stray '\342' in program
+   32 | ​
+      | ^
+..\src\Clase_04b.c:32:2: error: stray '\200' in program
+   32 | ​
+      |  ^
+..\src\Clase_04b.c:32:3: error: stray '\213' in program
+   32 | ​
+      |   ^
+..\src\Clase_04b.c: At top level:
+..\src\Clase_04b.c:35:1: error: stray '\342' in program
+   35 | ​
+      | ^
+..\src\Clase_04b.c:35:2: error: stray '\200' in program
+   35 | ​
+      |  ^
+..\src\Clase_04b.c:35:3: error: stray '\213' in program
+   35 | ​
+      |   ^
+..\src\Clase_04b.c:44:1: error: stray '\342' in program
+   44 | ​
+      | ^
+..\src\Clase_04b.c:44:2: error: stray '\200' in program
+   44 | ​
+      |  ^
+..\src\Clase_04b.c:44:3: error: stray '\213' in program
+   44 | ​
+      |   ^
+..\src\Clase_04b.c: In function 'utn_getNumero':
+..\src\Clase_04b.c:61:20: error: stray '\342' in program
+   61 |   printf("%s",msg);​
+      |                    ^
+..\src\Clase_04b.c:61:21: error: stray '\200' in program
+   61 |   printf("%s",msg);​
+      |                     ^
+..\src\Clase_04b.c:61:22: error: stray '\213' in program
+   61 |   printf("%s",msg);​
+      |                      ^
+..\src\Clase_04b.c:72:4: error: stray '\342' in program
+   72 |   }​
+      |    ^
+..\src\Clase_04b.c:72:5: error: stray '\200' in program
+   72 |   }​
+      |     ^
+..\src\Clase_04b.c:72:6: error: stray '\213' in program
+   72 |   }​
+      |      ^
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:40:33 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+..\src\Clase_04b.c: In function 'main':
+..\src\Clase_04b.c:24:1: error: stray '\342' in program
+   24 | ​
+      | ^
+..\src\Clase_04b.c:24:2: error: stray '\200' in program
+   24 | ​
+      |  ^
+..\src\Clase_04b.c:24:3: error: stray '\213' in program
+   24 | ​
+      |   ^
+..\src\Clase_04b.c: At top level:
+..\src\Clase_04b.c:27:1: error: stray '\342' in program
+   27 | ​
+      | ^
+..\src\Clase_04b.c:27:2: error: stray '\200' in program
+   27 | ​
+      |  ^
+..\src\Clase_04b.c:27:3: error: stray '\213' in program
+   27 | ​
+      |   ^
+..\src\Clase_04b.c: In function 'utn_getNumero':
+..\src\Clase_04b.c:52:20: error: stray '\342' in program
+   52 |   printf("%s",msg);​
+      |                    ^
+..\src\Clase_04b.c:52:21: error: stray '\200' in program
+   52 |   printf("%s",msg);​
+      |                     ^
+..\src\Clase_04b.c:52:22: error: stray '\213' in program
+   52 |   printf("%s",msg);​
+      |                      ^
+..\src\Clase_04b.c:63:4: error: stray '\342' in program
+   63 |   }​
+      |    ^
+..\src\Clase_04b.c:63:5: error: stray '\200' in program
+   63 |   }​
+      |     ^
+..\src\Clase_04b.c:63:6: error: stray '\213' in program
+   63 |   }​
+      |      ^
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:41:42 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+gcc -o Clase_04b.exe "src\\Clase_04b.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:42:25 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+..\src\Clase_04b.c: In function 'utn_getNumero':
+..\src\Clase_04b.c:6:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+    6 | int main(void) {
+      |                ^
+..\src\Clase_04b.c:46:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   46 | {
+      | ^
+..\src\Clase_04b.c:68: error: expected '{' at end of input
+..\src\Clase_04b.c:67:1: warning: control reaches end of non-void function [-Wreturn-type]
+   67 | }
+      | ^
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:42:39 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+gcc -o Clase_04b.exe "src\\Clase_04b.o" 
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:43:51 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+gcc -o Clase_04b.exe "src\\Clase_04b.o" 
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:44:28 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+gcc -o Clase_04b.exe "src\\Clase_04b.o" 
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:44:56 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+gcc -o Clase_04b.exe "src\\Clase_04b.o" 
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:46:30 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+gcc -o Clase_04b.exe "src\\Clase_04b.o" 
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:46:49 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+gcc -o Clase_04b.exe "src\\Clase_04b.o" 
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:47:28 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+..\src\Clase_04b.c: In function 'utn_getNumero':
+..\src\Clase_04b.c:64:3: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+   64 |   else
+      |   ^~~~
+..\src\Clase_04b.c:66:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+   66 |    reintentos--;
+      |    ^~~~~~~~~~
+gcc -o Clase_04b.exe "src\\Clase_04b.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:47:44 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+..\src\Clase_04b.c: In function 'utn_getNumero':
+..\src\Clase_04b.c:64:3: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+   64 |   else
+      |   ^~~~
+..\src\Clase_04b.c:66:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+   66 |    reintentos--;
+      |    ^~~~~~~~~~
+gcc -o Clase_04b.exe "src\\Clase_04b.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:47:56 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+gcc -o Clase_04b.exe "src\\Clase_04b.o" 
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for Clase_04b
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+21:48:41 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+gcc -o Clase_04b.exe "src\\Clase_04b.o" 
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+22:20:35 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase_04b.o" "..\\src\\Clase_04b.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'utn_getNumero':
+..\src\utn.c:27:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   27 |   printf("%s",msg);
+      |   ^~~~~~
+..\src\utn.c:27:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\utn.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+..\src\utn.c:28:3: warning: implicit declaration of function 'fflush' [-Wimplicit-function-declaration]
+   28 |   fflush(stdin);
+      |   ^~~~~~
+..\src\utn.c:28:10: error: 'stdin' undeclared (first use in this function)
+   28 |   fflush(stdin);
+      |          ^~~~~
+..\src\utn.c:28:10: note: 'stdin' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+..\src\utn.c:28:10: note: each undeclared identifier is reported only once for each function it appears in
+..\src\utn.c:29:3: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   29 |   scanf("%d",&numeroQueIngresaElUsuario);
+      |   ^~~~~
+..\src\utn.c:29:3: warning: incompatible implicit declaration of built-in function 'scanf'
+..\src\utn.c:29:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+Info: Nothing to build for ClaseRepaso_01a
+Info: Nothing to build for ClaseRepaso_01b
+Info: Nothing to build for Clase_01
+Info: Nothing to build for Clase_02
+Info: Nothing to build for Clase_03
+Info: Nothing to build for Clase_03b
+Info: Nothing to build for Clase_03c
+Info: Nothing to build for Clase_03prueba
+Info: Nothing to build for Clase_04
+22:20:55 **** Incremental Build of configuration Debug for project Clase_04b ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase_04b.exe "src\\Clase_04b.o" "src\\utn.o" 
